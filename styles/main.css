@@ -1,5 +1,5 @@
 body {
-    background-color: darkgrey;
+    background-color: rgb(240, 212, 185);
     font-size: 20px;
     color:rgb(17, 12, 3); 
     text-align: center;
@@ -21,6 +21,6 @@ p{
     margin-right: auto;
     max-width: 500px;
 }
-h2 {
+h3 {
     font-size: 30px;
 }
