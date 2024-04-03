@@ -32,11 +32,13 @@ nav {
     border-color: rgb(13, 13, 13);
     border-width: 10px;
     background-color: cornsilk;
+    border: black;
+    
 
 }
 .img {
-    max-width: fit-content;
-    max-width: fit-content;
+    height: 40%;
+    width: 40%;
 }
 .picture1 {
     max-width: 1000px;
