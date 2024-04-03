@@ -13,7 +13,7 @@ h1 {
     font-style:italic;
     font-size: 40px;
     font-weight: bold;
-    background-color: indigo;
+    background-color: rgb(121, 186, 236);
 }
 p{
     margin-top: 40px;
@@ -25,6 +25,10 @@ p{
 h3 {
     font-size: 30px;
 }
-.nav {
+nav {
     color: cadetblue;
+}
+.img {
+    max-width: 100%;
+    max-width: 100%;
 }
