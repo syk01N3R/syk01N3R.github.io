@@ -36,9 +36,9 @@ nav {
     
 
 }
-.img {
-    height: 40%;
-    width: 40%;
+img {
+    height: auto;
+    max-width: 100%;
 }
 .picture1 {
     max-width: 1000px;
