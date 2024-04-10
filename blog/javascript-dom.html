@@ -42,8 +42,11 @@
         The DOM (Document Object Model) is like a way to organize and interact with those elements on your web page. It's basically a tree-like structure that represents the structure of your HTML document, where each element is a node in the tree.
         Now, let's say you want to interact with the bookshelf to find a specific book or rearrange them. Similarly, you might want to interact with the DOM to change the content or style of your web page dynamically.
         </p>
+        
         <h4>Here's an example of how you might interact with the DOM using JavaScript:</h4>
         
+
+
         <p>Let's say you have a button on your web page, and when you click on it, you want to change the color of the text on the page.</p>
         
         <ul>
@@ -58,8 +61,16 @@
         
         <h3>Here's a simplified version of what the code might look like:
        </h3>
-    
-// insert picture of javascript code here
+       <p>// Step 1: Access the button
+        const button = document.getElementById('myButton');
+        
+        // Step 2: Add event listener
+        button.addEventListener('click', function() {
+            // Step 3: Define the function
+            // Step 4: Manipulate the DOM
+            const textElement = document.getElementById('myText');
+            textElement.style.color = 'red';</p>
+       
 
     <p>In this example, when the button with the id 'myButton' is clicked, the text color of the element with the id 'myText' will change to red. This is just one of the many ways you can interact with the DOM to create dynamic and interactive web pages.</p>
     
@@ -72,6 +83,10 @@
     <li>To access data from an array, you use square brackets [ ] notation with the index of the element you want to retrieve.</li>
     <li>Arrays are ideal for storing lists of similar items or when the order of elements matters.</li> 
   </ul>
+  <p>Example</p>
+<p>const fruits = ['apple', 'banana', 'orange'];
+  console.log(fruits[0]); // Output: 'apple'</p>
+  
 		
 <h3>Objects</h3>
 <ul>
@@ -79,6 +94,16 @@
      <li>To access data from an object, you use dot notation (.) or square brackets ([ ]) with the key of the property you want to retrieve.</li>
      <li>Objects are useful for storing structured data and accessing it by meaningful identifiers (keys).</li>
 	</ul>
+<p>Example</p>
+  <p>const person = {
+  name: 'John',
+  age: 30,
+  city: 'New York'
+};
+console.log(person.name); // Output: 'John'
+console.log(person['age']); // Output: 30</p>
+
+  
 
 <h3>So, the main difference lies in how data is accessed:</h3>
 <ul>
