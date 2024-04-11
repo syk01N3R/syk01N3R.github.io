@@ -8,6 +8,9 @@ body {
     max-width: 100%;
 
 }
+h2 {
+    font-weight: bold;
+}
 h1 {
     background-color: rgb(240, 212, 185);
     margin-bottom: 20px;
@@ -26,16 +29,23 @@ p{
 }
 h3 {
     background-color: rgb(240, 212, 185);
-    font-size: 30px;
+    font-size: 20px;
+    font-weight: bold;
 }
 nav {
-    color: cadetblue;
+    background-color: #f2b04e;
+    color: #FFFFFF;
+    padding: 10px;
+    text-align: center;
     width: auto;
     height: auto;
+    border-radius: 10px;
     border-color: rgb(13, 13, 13);
     border-width: 10px;
-    background-color: cornsilk;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     border: black;
+    margin: 10px;
+    
     
 
 }
