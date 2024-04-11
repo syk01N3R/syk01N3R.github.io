@@ -18,6 +18,7 @@ h1 {
     font-size: 40px;
     font-weight: bold;
     background-color: rgb(121, 186, 236);
+    border-radius: 10px;
 }
 p{
     background-color: rgb(240, 212, 185);
@@ -45,10 +46,9 @@ nav {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     border: black;
     margin: 10px;
+    flex-wrap: wrap;
     
-    
-
-}
+    }
 img {
     height: auto;
     max-width: 100%;
